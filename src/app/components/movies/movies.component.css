@@ -1,0 +1,43 @@
+img {
+    width: 20%;
+    height: 13em;
+    display: block;
+    margin: auto;
+    outline-style: solid;
+    margin-top: 1.5em;
+}
+
+
+div {
+    outline-style: solid;
+    width: 40%;
+    display: block;
+    float: left;
+    margin: 5%;
+    height: 34em;
+    background-color: lightgray;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.date {
+    font-size: 0.5em;
+    text-align: center;
+    margin-left: 1em;
+}
+
+.overview {
+    text-align: center;
+    height: 11em;
+    font-size: 0.8em;
+    margin-left: 4em;
+    margin-right: 4em;
+    background-color: gray;
+    outline-style: solid;
+    vertical-align: middle;
+    margin: 0px;
+    display: table-cell;
+}

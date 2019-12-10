@@ -1,0 +1,21 @@
+nav * {
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    display: block;
+    outline-style: solid;
+    float: left;
+    text-align: center;
+    font-size: 2em;
+    background-color: grey;
+    color: black;
+    box-shadow: gainsboro 10px 10px;
+}
+
+nav *:hover {
+    color: white;
+}
+
+nav {
+    width: 100%;
+}

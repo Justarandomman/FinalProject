@@ -1,0 +1,17 @@
+<div class="divMovie">
+    <a [routerLink] = "['/movies']">
+        <p class="title">{{ movie.original_title }}</p>
+        <p class="date">{{ movie.release_date }}</p>
+        <p class="overviewMovie">{{ movie.overview }}</p>
+        <img src= "https://image.tmdb.org/t/p/w500{{ movie.poster_path }}">
+    </a>
+</div>
+
+<div class="divTv">
+    <a [routerLink] = "['/tvshows']">
+        <p class="title">{{ tvshow.original_name }}</p>
+        <p class="date">{{ tvshow.first_air_date }}</p>
+        <p class="overviewTv">{{ tvshow.overview }}</p>
+        <img src= "https://image.tmdb.org/t/p/w500{{ tvshow.poster_path }}">
+    </a>
+</div>
